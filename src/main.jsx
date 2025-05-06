@@ -1,8 +1,8 @@
 import React from 'react';
-import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { Input } from '@/components/ui/input';
-import { cn } from '@/lib/utils';
+//import Test from './components/ui/test';
+import Card from './components/ui/Card.jsx';  // Adjust based on your project structure
+import Input from '@/components/ui/Input';  // Make sure the path and file name are correct
+import { exampleUtility } from '@/lib/utils'; // If using alia
 import { BookOpen, Book, BookCopy, BookMarked, MessageSquare, Mail, Phone, } from 'lucide-react';
 
 // Placeholder image URLs (replace with your actual image URLs)

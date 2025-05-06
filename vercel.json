@@ -1,11 +1,5 @@
 {
-  "root": "dist",
-  "build": {
-    "env": {
-      "SKIP_BUILD": "false"
-    }
-  },
-  "routes": [
+    "routes": [
     { "handle": "filesystem" },
     { "src": "/.*", "dest": "/index.html" }
   ]
